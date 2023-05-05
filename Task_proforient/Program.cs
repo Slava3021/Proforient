@@ -1,7 +1,7 @@
 ﻿Console.Clear();
 string[] CreateArrayString(int size)
 {
-    string[] stringArray = new string[size ];
+    string[] stringArray = new string[size];
     for (int i = 0; i < stringArray.Length; i++)
     {
         Console.WriteLine("Введите несколько символов");
@@ -41,10 +41,10 @@ string[] LesseQuallyThree(string[] array)
         if (array[i].Length <= 3)
         {
             count++;
-            
+
         }
     }
-      string[] stringArray = new string[count];
+    string[] stringArray = new string[count];
     for (int i = 0; i < arr.Length; i++)
     {
         if (array[i].Length <= 3)
